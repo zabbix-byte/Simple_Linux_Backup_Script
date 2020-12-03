@@ -27,7 +27,7 @@ day=$(date +%A)
 
 archive_file="$hostname-$day.tgz"
 
-echo "Backing up $backup_files to $dest/$archive_file"
+echo "$backup_files en $dest/$archive_file"
 
 date
 
